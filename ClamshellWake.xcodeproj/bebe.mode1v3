@@ -216,48 +216,7 @@
 		</dict>
 	</array>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>878A1EFB13DD068E0059A548</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>ClamshellWake.cpp</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>878A1EFC13DD068E0059A548</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>ClamshellWake.cpp</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>878A1F0C13DD07350059A548</string>
-						<key>history</key>
-						<array>
-							<string>878A1EF013DD04B70059A548</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {1065, 677}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>15 60 1065 718 0 0 1280 778 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -368,7 +327,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ClamshellWake.cpp</string>
+								<string>ClamshellWake.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -376,17 +335,17 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ClamshellWake.cpp</string>
+										<string>ClamshellWake.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>878A1F0B13DD07350059A548</string>
+										<string>878A1F1B13DD87FA0059A548</string>
 										<key>history</key>
 										<array>
-											<string>878A1ECE13DCFBA70059A548</string>
 											<string>878A1ECF13DCFBA70059A548</string>
-											<string>878A1ED013DCFBA70059A548</string>
-											<string>878A1EF713DD068E0059A548</string>
+											<string>878A1F1813DD87FA0059A548</string>
+											<string>878A1F1913DD87FA0059A548</string>
+											<string>878A1F1A13DD87FA0059A548</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -569,7 +528,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>333252405.01239699</real>
+	<real>333285370.12062502</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -588,7 +547,6 @@
 	<array>
 		<string>878A1EAE13DCF6A80059A548</string>
 		<string>/Users/bebe/Documents/github/ClamshellWake/ClamshellWake.xcodeproj</string>
-		<string>878A1EFB13DD068E0059A548</string>
 	</array>
 	<key>WindowString</key>
 	<string>250 274 788 504 0 0 1280 778 </string>

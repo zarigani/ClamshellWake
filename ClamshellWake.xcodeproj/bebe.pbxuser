@@ -44,6 +44,10 @@
 			878A1F0313DD07140059A548 /* PBXTextBookmark */ = 878A1F0313DD07140059A548 /* PBXTextBookmark */;
 			878A1F0B13DD07350059A548 /* PBXTextBookmark */ = 878A1F0B13DD07350059A548 /* PBXTextBookmark */;
 			878A1F0C13DD07350059A548 /* PBXTextBookmark */ = 878A1F0C13DD07350059A548 /* PBXTextBookmark */;
+			878A1F1813DD87FA0059A548 /* PlistBookmark */ = 878A1F1813DD87FA0059A548 /* PlistBookmark */;
+			878A1F1913DD87FA0059A548 /* PBXTextBookmark */ = 878A1F1913DD87FA0059A548 /* PBXTextBookmark */;
+			878A1F1A13DD87FA0059A548 /* PBXTextBookmark */ = 878A1F1A13DD87FA0059A548 /* PBXTextBookmark */;
+			878A1F1B13DD87FA0059A548 /* PBXTextBookmark */ = 878A1F1B13DD87FA0059A548 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 878A1EB013DCF6A80059A548 /* Source Control */;
 		userBuildSettings = {
@@ -60,15 +64,15 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {519, 308}}";
 			sepNavSelRange = "{639, 0}";
-			sepNavVisRange = "{0, 580}";
+			sepNavVisRange = "{0, 571}";
 			sepNavWindowFrame = "{{15, 4}, {1065, 774}}";
 		};
 	};
 	1A224C3FFF42367911CA2CB7 /* ClamshellWake.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1006, 1028}}";
-			sepNavSelRange = "{844, 0}";
-			sepNavVisRange = "{950, 1346}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 1188}}";
+			sepNavSelRange = "{2299, 0}";
+			sepNavVisRange = "{1943, 403}";
 			sepNavWindowFrame = "{{15, 4}, {1065, 774}}";
 		};
 	};
@@ -179,7 +183,7 @@
 		fRef = 1A224C3FFF42367911CA2CB7 /* ClamshellWake.cpp */;
 		name = "ClamshellWake.cpp: 26";
 		rLen = 0;
-		rLoc = 844;
+		rLoc = 428;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 950;
@@ -199,7 +203,7 @@
 		fRef = 1A224C3FFF42367911CA2CB7 /* ClamshellWake.cpp */;
 		name = "ClamshellWake.cpp: 26";
 		rLen = 0;
-		rLoc = 844;
+		rLoc = 428;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 950;
@@ -219,9 +223,53 @@
 		fRef = 1A224C3FFF42367911CA2CB7 /* ClamshellWake.cpp */;
 		name = "ClamshellWake.cpp: 26";
 		rLen = 0;
-		rLoc = 844;
+		rLoc = 428;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 950;
+	};
+	878A1F1813DD87FA0059A548 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32D94FCF0562CBF700B6AF17 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			IOKitPersonalities,
+			MyDriver,
+			IOClass,
+		);
+		name = /Users/bebe/Documents/github/ClamshellWake/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	878A1F1913DD87FA0059A548 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* ClamshellWake.cpp */;
+		name = "ClamshellWake.cpp: 71";
+		rLen = 0;
+		rLoc = 2299;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 1943;
+	};
+	878A1F1A13DD87FA0059A548 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3EFF42367911CA2CB7 /* ClamshellWake.h */;
+		name = "ClamshellWake.h: 21";
+		rLen = 0;
+		rLoc = 639;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 29;
+	};
+	878A1F1B13DD87FA0059A548 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3EFF42367911CA2CB7 /* ClamshellWake.h */;
+		name = "ClamshellWake.h: 21";
+		rLen = 0;
+		rLoc = 639;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 0;
 	};
 }
