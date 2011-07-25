@@ -1,54 +1,54 @@
-#=ClamshellWake
-#
-#==これは何？
-#ClamshellWake.kext（クラムシェル ウェイク）は、MacBookのディスプレイを閉じた状態でもWake on Demandが有効になるカーネル機能拡張です。
-#
-#* ディスプレイを閉じた瞬間のスリープが無効になります。
-#* ディスプレイを閉じている間は、省エネルギー環境設定にしたがってスリープします。
-#* ディスプレイを閉じてスリープ中でも「ネットワークアクセスによってスリープを解除」できます。（省エネルギー環境設定で有効な場合）
-#* つまり、ディスプレイを閉じていても、開いている時とまったく同じ挙動になります。
-#
-#元々MacBookは、高性能なUPS付き（バッテリー容量5000mA）、かつ省エネルギーな（使わない時はスリープし、使う時だけ稼働する = Wake on Demand）、たいへん魅力あるサーバーにもなります。
-#さらに閉じた状態のMacBookは、A4サイズ・厚さ3cmという省スペースの魅力も加わります。ブックエンドに立てかけて本のように収納できます。
-#
-#==使い方
-#===簡単な方法
-#* 付属のClamshellWake.appを起動することでClamshellWake.kextが有効になります。
-#* 付属のClamshellWake.appを終了することでClamshellWake.kextも無効になります。
-#
-#===ターミナルからコマンドで操作する方法
-#* カーネルにロード用のClamshellWake.kextを/tmpにコピーします。（カーネルは権限に厳格で、オーナー=root グループ=wheelしか受け付けません。）
-#* * sudo cp -R ClamshellWake.kext /tmp
-#* * sudo chown -R root:wheel /tmp/ClamshellWake.kext
-#
-#* ClamshellWake.kextを有効にします。
-#** sudo kextload -v /tmp/ClamshellWake.kext
-#
-#* ClamshellWake.kextを無効にします。
-#** sudo kextunload -v /tmp/ClamshellWake.kext
-#
-#* アップル以外のカーネル機能拡張のロード状態を確認します。
-#** kextstat | grep -v com.apple
-#
-#==注意
-#* ディスプレイを閉じた状態では冷却効率が悪くなり、高負荷が連続すると本体が高温になる可能性があります。
-#* MacBookの設置状況によっても、本体が高温になる可能性があります。
-#
-#==開発環境
-#* MacBook OSX 10.6.8
-#* Xcode 3.2.6
-#
-#==動作確認
-#* MacBook OSX 10.6.8
-#
-#==心構え
-#ClamshellWakeはフリーウェアです。
-#作者自身のMacBook環境での動作確認はしておりますが、どうか以下の点にご注意ください。
-#本ソフトウェアは無保証であり、使用により発生したいかなる損害についても、作者は責任を負うことができません。
-#
-#
-#以上、よろしくお願いします。
-#
-#作者:: bebe工房
-#メール:: bebekoubou@gmail.com
-#ブログ:: http://d.hatena.ne.jp/zariganitosh/
+# =ClamshellWake
+# 
+# ==これは何？
+# ClamshellWake.kext（クラムシェル ウェイク）は、MacBookのディスプレイを閉じた状態でもWake on Demandが有効になるカーネル機能拡張です。
+# 
+# * ディスプレイを閉じた瞬間のスリープが無効になります。
+# * ディスプレイを閉じている間は、省エネルギー環境設定にしたがってスリープします。
+# * ディスプレイを閉じてスリープ中でも「ネットワークアクセスによってスリープを解除」できます。（省エネルギー環境設定で有効な場合）
+# * つまり、ディスプレイを閉じていても、開いている時とまったく同じ挙動になります。
+# 
+# 元々MacBookは、高性能なUPS付き（バッテリー容量5000mA）、かつ省エネルギーな（使わない時はスリープし、使う時だけ稼働する = Wake on Demand）、たいへん魅力あるサーバーにもなります。
+# さらに閉じた状態のMacBookは、A4サイズ・厚さ3cmという省スペースの魅力も加わります。ブックエンドに立てかけて本のように収納できます。
+# 
+# ==使い方
+# ===簡単な方法
+# * 付属のClamshellWake.appを起動することでClamshellWake.kextが有効になります。
+# * 付属のClamshellWake.appを終了することでClamshellWake.kextも無効になります。
+# 
+# ===ターミナルからコマンドで操作する方法
+# * カーネルにロード用のClamshellWake.kextを/tmpにコピーします。（カーネルは権限に厳格で、オーナー=root グループ=wheelしか受け付けません。）
+# * * sudo cp -R ClamshellWake.kext /tmp
+# * * sudo chown -R root:wheel /tmp/ClamshellWake.kext
+# 
+# * ClamshellWake.kextを有効にします。
+# * * sudo kextload -v /tmp/ClamshellWake.kext
+# 
+# * ClamshellWake.kextを無効にします。
+# * * sudo kextunload -v /tmp/ClamshellWake.kext
+# 
+# * アップル以外のカーネル機能拡張のロード状態を確認します。
+# ** kextstat | grep -v com.apple
+# 
+# ==注意
+# * ディスプレイを閉じた状態では冷却効率が悪くなり、高負荷が連続すると本体が高温になる可能性があります。
+# * MacBookの設置状況によっても、本体が高温になる可能性があります。
+# 
+# ==開発環境
+# * MacBook OSX 10.6.8
+# * Xcode 3.2.6
+# 
+# ==動作確認
+# * MacBook OSX 10.6.8
+# 
+# ==心構え
+# ClamshellWakeはフリーウェアです。
+# 作者自身のMacBook環境での動作確認はしておりますが、どうか以下の点にご注意ください。
+# 本ソフトウェアは無保証であり、使用により発生したいかなる損害についても、作者は責任を負うことができません。
+# 
+# 
+# 以上、よろしくお願いします。
+# 
+# 作者:: bebe工房
+# メール:: bebekoubou@gmail.com
+# ブログ:: http://d.hatena.ne.jp/zariganitosh/
