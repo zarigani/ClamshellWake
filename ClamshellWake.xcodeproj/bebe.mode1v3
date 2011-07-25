@@ -216,7 +216,48 @@
 		</dict>
 	</array>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>878A1EFB13DD068E0059A548</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>ClamshellWake.cpp</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>878A1EFC13DD068E0059A548</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>ClamshellWake.cpp</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>878A1F0C13DD07350059A548</string>
+						<key>history</key>
+						<array>
+							<string>878A1EF013DD04B70059A548</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1065, 677}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>15 60 1065 718 0 0 1280 778 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -339,13 +380,13 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>878A1EE213DD00890059A548</string>
+										<string>878A1F0B13DD07350059A548</string>
 										<key>history</key>
 										<array>
 											<string>878A1ECE13DCFBA70059A548</string>
 											<string>878A1ECF13DCFBA70059A548</string>
 											<string>878A1ED013DCFBA70059A548</string>
-											<string>878A1ED213DCFBA70059A548</string>
+											<string>878A1EF713DD068E0059A548</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -357,14 +398,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 269}}</string>
+								<string>{{0, 0}, {580, 260}}</string>
 								<key>RubberWindowFrame</key>
 								<string>250 274 788 504 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>269pt</string>
+							<string>260pt</string>
 						</dict>
 						<dict>
 							<key>BecomeActive</key>
@@ -379,14 +420,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 274}, {580, 189}}</string>
+								<string>{{0, 265}, {580, 198}}</string>
 								<key>RubberWindowFrame</key>
 								<string>250 274 788 504 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>189pt</string>
+							<string>198pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -405,9 +446,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>878A1EE313DD00890059A548</string>
+				<string>878A1EF913DD068E0059A548</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>878A1EE413DD00890059A548</string>
+				<string>878A1EFA13DD068E0059A548</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -528,7 +569,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>333250697.40770102</real>
+	<real>333252405.01239699</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -547,6 +588,7 @@
 	<array>
 		<string>878A1EAE13DCF6A80059A548</string>
 		<string>/Users/bebe/Documents/github/ClamshellWake/ClamshellWake.xcodeproj</string>
+		<string>878A1EFB13DD068E0059A548</string>
 	</array>
 	<key>WindowString</key>
 	<string>250 274 788 504 0 0 1280 778 </string>
@@ -587,6 +629,8 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -626,7 +670,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>878A1EAE13DCF6A80059A548</string>
-				<string>878A1EE513DD00890059A548</string>
+				<string>878A1EF413DD06850059A548</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

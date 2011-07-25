@@ -1,255 +1,0 @@
-TClamshellWake
-v7
-r0
-t333249392.520869
-cCheck dependencies
-cProcessInfoPlistFile /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/Info.plist Info.plist
-cCopyStringsFile /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileC build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake.o /Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake_info.o /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/ClamshellWake_info.c normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake.o /Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cLd /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake normal x86_64
-cCompileC build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake_info.o /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/ClamshellWake_info.c normal i386 c com.apple.compilers.gcc.4_2
-cLd /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake normal i386
-cCreateUniversalBinary /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/MacOS/ClamshellWake normal "x86_64 i386"
-cGenerateDSYMFile /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext.dSYM /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/MacOS/ClamshellWake
-cTouch /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004DC52A2300000000000000EE
-t1304767011
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h
-c000000004CC3DE670000000000004DDF
-t1287904871
-s19935
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOService.h
-c000000004CC3DE67000000000001F49D
-t1287904871
-s128157
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOTimerEventSource.h
-c000000004CC3DE670000000000002B1D
-t1287904871
-s11037
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOWorkLoop.h
-c000000004CC3DE680000000000003980
-t1287904872
-s14720
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/pwr_mgt/RootDomain.h
-c000000004CC3DE650000000000002A3F
-t1287904869
-s10815
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp
-c000000004E2CC3E90000000000000918
-t1311556585
-s2328
-i<IOKit/IOLib.h>
-i"ClamshellWake.h"
-i<IOKit/pwr_mgt/RootDomain.h>
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.h
-c000000004E2CC330000000000000027F
-t1311556400
-s639
-i<IOKit/IOService.h>
-i<IOKit/IOWorkLoop.h>
-i<IOKit/IOTimerEventSource.h>
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/English.lproj/InfoPlist.strings
-c000000004E2CBF210000000000000030
-t1311555361
-s48
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/ClamshellWake_info.c
-c000000004E2CC3EF00000000000001AE
-t1311556591
-s430
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake
-t1311556592
-s29472
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake.LinkFileList
-c000000004E2CC3EF0000000000000084
-t1311556591
-s132
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake.o
-t1311556591
-s139376
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake_info.o
-t1311556592
-s3796
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake
-t1311556592
-s33432
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake.LinkFileList
-c000000004E2CC3EF0000000000000086
-t1311556591
-s134
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake.o
-t1311556591
-s140824
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake_info.o
-t1311556591
-s4096
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext
-t1311556592
-s102
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext.dSYM
-t1311556592
-s102
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/Info.plist
-t1311556591
-s1815
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/MacOS/ClamshellWake
-t1311556592
-s70432
-
-N/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/Resources/English.lproj/InfoPlist.strings
-t1311556591
-s92
-
-NInfo.plist
-c000000004E2CC16E00000000000005D4
-t1311555950
-s1492
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies333249391#333249391#0(0"0(0#1#0"8610673632#0"0#
-
-CCompileC build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake.o /Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s333249391.361763
-e333249391.981516
-r1
-xCompileC
-xbuild/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake.o
-x/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-o/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: In static member function 'static bool com_bebekoubou_driver_ClamshellWake::send_event(UInt32)':
-o/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:57: warning: format '%X' expects type 'unsigned int', but argument 2 has type 'UInt32'
-lSLF07#2@67"Compile /Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp333249391#333249391#0(305"/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: In static member function 'static bool com_bebekoubou_driver_ClamshellWake::send_event(UInt32)':/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:57: warning: format '%X' expects type 'unsigned int', but argument 2 has type 'UInt32'1(22@73"Format '%X' expects type 'unsigned int', but argument 2 has type 'UInt32'333249391#158#147#0(6@59"/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp333249385#57#0#57#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#59"/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp8608069216#1767"    cd /Users/bebe/Documents/Xcode/ClamshellWake    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -Os -fno-common -mkernel -finline -fno-keep-inline-functions -Wreturn-type -Wunused-variable -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-generated-files.hmap -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-own-target-headers.hmap -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-all-target-headers.hmap -iquote /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-project-headers.hmap -F/Users/bebe/Documents/Xcode/ClamshellWake/build/Release -I/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/i386 -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources -c /Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp -o /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake.o0#
-
-CCompileC build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake_info.o /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/ClamshellWake_info.c normal i386 c com.apple.compilers.gcc.4_2
-s333249391.981662
-e333249392.022635
-r1
-xCompileC
-xbuild/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake_info.o
-x/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/ClamshellWake_info.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@139"Compile /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/ClamshellWake_info.c333249391#333249392#0(0"0(0#0#131"/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/ClamshellWake_info.c8609300192#1802"    cd /Users/bebe/Documents/Xcode/ClamshellWake    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -Os -fno-common -mkernel -finline -fno-keep-inline-functions -Wreturn-type -Wunused-variable -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-generated-files.hmap -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-own-target-headers.hmap -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-all-target-headers.hmap -iquote /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-project-headers.hmap -F/Users/bebe/Documents/Xcode/ClamshellWake/build/Release -I/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/i386 -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources -c /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/ClamshellWake_info.c -o /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake_info.o0#
-
-CCompileC build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake.o /Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s333249391.305723
-e333249391.897186
-r1
-xCompileC
-xbuild/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake.o
-x/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp333249391#333249391#0(0"0(0#0#59"/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp8609416864#1773"    cd /Users/bebe/Documents/Xcode/ClamshellWake    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -Os -fno-common -mkernel -finline -fno-keep-inline-functions -Wreturn-type -Wunused-variable -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-generated-files.hmap -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-own-target-headers.hmap -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-all-target-headers.hmap -iquote /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-project-headers.hmap -F/Users/bebe/Documents/Xcode/ClamshellWake/build/Release -I/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/x86_64 -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources -c /Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp -o /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake.o0#
-
-CCompileC build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake_info.o /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/ClamshellWake_info.c normal x86_64 c com.apple.compilers.gcc.4_2
-s333249391.307089
-e333249391.361652
-r1
-xCompileC
-xbuild/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake_info.o
-x/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/ClamshellWake_info.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@139"Compile /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/ClamshellWake_info.c333249391#333249391#0(0"0(0#0#131"/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/ClamshellWake_info.c8608689088#1808"    cd /Users/bebe/Documents/Xcode/ClamshellWake    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -Os -fno-common -mkernel -finline -fno-keep-inline-functions -Wreturn-type -Wunused-variable -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-generated-files.hmap -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-own-target-headers.hmap -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-all-target-headers.hmap -iquote /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/ClamshellWake-project-headers.hmap -F/Users/bebe/Documents/Xcode/ClamshellWake/build/Release -I/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/x86_64 -I/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources -c /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/DerivedSources/ClamshellWake_info.c -o /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake_info.o0#
-
-CCopyStringsFile /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s333249391.266468
-e333249391.305611
-r1
-xCopyStringsFile
-x/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings333249391#333249391#0(0"0(0#0#73"/Users/bebe/Documents/Xcode/ClamshellWake/English.lproj/InfoPlist.strings8610388416#380"    cd /Users/bebe/Documents/Xcode/ClamshellWake    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/Resources/English.lproj0#
-
-CCreateUniversalBinary /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/MacOS/ClamshellWake normal "x86_64 i386"
-s333249392.268810
-e333249392.340147
-r1
-xCreateUniversalBinary
-x/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/MacOS/ClamshellWake
-xnormal
-xx86_64 i386
-lSLF07#2@104"CreateUniversalBinary build/Release/ClamshellWake.kext/Contents/MacOS/ClamshellWake normal "x86_64 i386"333249392#333249392#0(0"0(0#0#53"/Users/bebe/Documents/Xcode/ClamshellWake/x86_64 i3868608532576#449"    cd /Users/bebe/Documents/Xcode/ClamshellWake    /usr/bin/lipo -create /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake -output /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/MacOS/ClamshellWake0#
-
-CGenerateDSYMFile /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext.dSYM /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/MacOS/ClamshellWake
-s333249392.340285
-e333249392.483856
-r1
-xGenerateDSYMFile
-x/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext.dSYM
-x/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/MacOS/ClamshellWake
-lSLF07#2@116"GenerateDSYMFile build/Release/ClamshellWake.kext.dSYM build/Release/ClamshellWake.kext/Contents/MacOS/ClamshellWake333249392#333249392#0(0"0(0#0#103"/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/MacOS/ClamshellWake8608090176#268"    cd /Users/bebe/Documents/Xcode/ClamshellWake    /Developer/usr/bin/dsymutil /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/MacOS/ClamshellWake -o /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext.dSYM0#
-
-CLd /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake normal i386
-s333249392.022745
-e333249392.268693
-r1
-xLd
-x/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake
-xnormal
-xi386
-lSLF07#2@134"Link /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake333249392#333249392#0(0"0(0#0#0"8609104512#801"    cd /Users/bebe/Documents/Xcode/ClamshellWake    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/bebe/Documents/Xcode/ClamshellWake/build/Release -F/Users/bebe/Documents/Xcode/ClamshellWake/build/Release -filelist /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake.LinkFileList -mmacosx-version-min=10.6 -lcpp_kext -Xlinker -kext -nostdlib -lkmodc++ /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake_info.o -lkmod -lcc_kext -o /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/i386/ClamshellWake0#
-
-CLd /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake normal x86_64
-s333249391.897289
-e333249392.253904
-r1
-xLd
-x/Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake
-xnormal
-xx86_64
-lSLF07#2@136"Link /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake333249391#333249392#0(0"0(0#0#0"8610170080#809"    cd /Users/bebe/Documents/Xcode/ClamshellWake    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/bebe/Documents/Xcode/ClamshellWake/build/Release -F/Users/bebe/Documents/Xcode/ClamshellWake/build/Release -filelist /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake.LinkFileList -mmacosx-version-min=10.6 -lcpp_kext -Xlinker -kext -nostdlib -lkmodc++ /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake_info.o -lkmod -lcc_kext -o /Users/bebe/Documents/Xcode/ClamshellWake/build/ClamshellWake.build/Release/ClamshellWake.build/Objects-normal/x86_64/ClamshellWake0#
-
-CProcessInfoPlistFile /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/Info.plist Info.plist
-s333249391.246638
-e333249391.266159
-r1
-xProcessInfoPlistFile
-x/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist333249391#333249391#0(0"0(0#0#52"/Users/bebe/Documents/Xcode/ClamshellWake/Info.plist8606932192#225"    cd /Users/bebe/Documents/Xcode/ClamshellWake    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext/Contents/Info.plist0#
-
-CTouch /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext
-s333249392.485009
-e333249392.520816
-r1
-xTouch
-x/Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext
-lSLF07#2@80"Touch /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext333249392#333249392#0(0"0(0#0#0"8611518912#146"    cd /Users/bebe/Documents/Xcode/ClamshellWake    /usr/bin/touch -c /Users/bebe/Documents/Xcode/ClamshellWake/build/Release/ClamshellWake.kext0#
-
