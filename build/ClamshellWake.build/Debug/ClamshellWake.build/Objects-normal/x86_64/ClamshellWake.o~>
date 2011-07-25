@@ -1,0 +1,57 @@
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:2:22: error: MyDriver.h: No such file or directory
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: 'com_bebekoubou_driver_ClamshellWake' has not been declared
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: expected constructor, destructor, or type conversion before 'com_bebekoubou_driver_ClamshellWake'
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: 'com_bebekoubou_driver_ClamshellWake' has not been declared
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: 'com_bebekoubou_driver_ClamshellWake' has not been declared
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: 'com_bebekoubou_driver_ClamshellWake' has not been declared
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: 'com_bebekoubou_driver_ClamshellWake' has not been declared
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: ISO C++ forbids declaration of 'com_bebekoubou_driver_ClamshellWake' with no type
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: In function 'int com_bebekoubou_driver_ClamshellWake(const OSMetaClass*)':
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: only constructors take base initializers
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: At global scope:
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: expected constructor, destructor, or type conversion before '::' token
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: 'com_bebekoubou_driver_ClamshellWake' is not a class or namespace
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: non-member function 'const OSMetaClass* getMetaClass()' cannot have cv-qualifier
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: In function 'const OSMetaClass* getMetaClass()':
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: 'gMetaClass' was not declared in this scope
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: At global scope:
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: 'com_bebekoubou_driver_ClamshellWake' is not a class or namespace
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: ISO C++ forbids declaration of 'MetaClass' with no type
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: In function 'int MetaClass()':
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: only constructors take base initializers
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: 'com_bebekoubou_driver_ClamshellWake' is not a class or namespace
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: ISO C++ forbids applying 'sizeof' to an expression of function type
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: At global scope:
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: 'com_bebekoubou_driver_ClamshellWake' is not a class or namespace
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: non-member function 'OSObject* alloc()' cannot have cv-qualifier
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: In function 'OSObject* alloc()':
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: expected type-specifier before 'com_bebekoubou_driver_ClamshellWake'
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: cannot convert 'int*' to 'OSObject*' in return
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: expected ';' before 'com_bebekoubou_driver_ClamshellWake'
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: At global scope:
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: 'com_bebekoubou_driver_ClamshellWake' is not a class or namespace
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: ISO C++ forbids declaration of 'com_bebekoubou_driver_ClamshellWake' with no type
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: In function 'int com_bebekoubou_driver_ClamshellWake()':
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: only constructors take base initializers
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:7: error: 'gMetaClass' was not declared in this scope
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: At global scope:
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:11: error: 'com_bebekoubou_driver_ClamshellWake' is not a class or namespace
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: In function 'bool start(IOService*)':
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:14: error: 'com_bebekoubou_driver_ClamshellWake' is not a class or namespace
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:15: error: cannot call member function 'virtual bool IOService::start(IOService*)' without object
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: At global scope:
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:18: error: 'com_bebekoubou_driver_ClamshellWake' is not a class or namespace
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: In function 'void stop(IOService*)':
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:21: error: 'com_bebekoubou_driver_ClamshellWake' is not a class or namespace
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:22: error: cannot call member function 'virtual void IOService::stop(IOService*)' without object
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: At global scope:
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:26: error: 'com_bebekoubou_driver_ClamshellWake' is not a class or namespace
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: In function 'IOReturn message(UInt32, IOService*, void*)':
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:33: error: 'lastLidState' was not declared in this scope
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:36: error: 'com_bebekoubou_driver_ClamshellWake' is not a class or namespace
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:42: error: 'com_bebekoubou_driver_ClamshellWake' is not a class or namespace
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:46: error: cannot call member function 'virtual IOReturn IOService::message(UInt32, IOService*, void*)' without object
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: At global scope:
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:51: error: 'com_bebekoubou_driver_ClamshellWake' is not a class or namespace
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp: In function 'bool send_event(UInt32)':
+/Users/bebe/Documents/Xcode/ClamshellWake/ClamshellWake.cpp:59: error: 'getPMRootDomain' was not declared in this scope

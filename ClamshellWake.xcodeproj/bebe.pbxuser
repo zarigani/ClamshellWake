@@ -1,0 +1,145 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 32D94FC30562CBF700B6AF17 /* ClamshellWake */;
+		codeSenseManager = 878A1EB113DCF6A80059A548 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 333250691;
+			PBXWorkspaceStateSaveDate = 333250691;
+		};
+		perUserProjectItems = {
+			878A1ECE13DCFBA70059A548 /* PlistBookmark */ = 878A1ECE13DCFBA70059A548 /* PlistBookmark */;
+			878A1ECF13DCFBA70059A548 /* PBXTextBookmark */ = 878A1ECF13DCFBA70059A548 /* PBXTextBookmark */;
+			878A1ED013DCFBA70059A548 /* PBXTextBookmark */ = 878A1ED013DCFBA70059A548 /* PBXTextBookmark */;
+			878A1ED213DCFBA70059A548 /* PBXTextBookmark */ = 878A1ED213DCFBA70059A548 /* PBXTextBookmark */;
+			878A1EE213DD00890059A548 /* PBXTextBookmark */ = 878A1EE213DD00890059A548 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 878A1EB013DCF6A80059A548 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 260}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	1A224C3EFF42367911CA2CB7 /* ClamshellWake.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 308}}";
+			sepNavSelRange = "{639, 0}";
+			sepNavVisRange = "{0, 580}";
+			sepNavWindowFrame = "{{15, 4}, {1065, 774}}";
+		};
+	};
+	1A224C3FFF42367911CA2CB7 /* ClamshellWake.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 1166}}";
+			sepNavSelRange = "{50, 0}";
+			sepNavVisRange = "{0, 567}";
+			sepNavWindowFrame = "{{15, 4}, {1065, 774}}";
+		};
+	};
+	32D94FC30562CBF700B6AF17 /* ClamshellWake */ = {
+		activeExec = 0;
+	};
+	32D94FCF0562CBF700B6AF17 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 770}}";
+			sepNavSelRange = "{1457, 0}";
+			sepNavVisRange = "{1021, 453}";
+		};
+	};
+	878A1EB013DCF6A80059A548 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	878A1EB113DCF6A80059A548 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	878A1ECE13DCFBA70059A548 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32D94FCF0562CBF700B6AF17 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			IOKitPersonalities,
+			MyDriver,
+			IOClass,
+		);
+		name = /Users/bebe/Documents/Xcode/ClamshellWake/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	878A1ECF13DCFBA70059A548 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	878A1ED013DCFBA70059A548 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3EFF42367911CA2CB7 /* ClamshellWake.h */;
+		name = "ClamshellWake.h: 21";
+		rLen = 0;
+		rLoc = 639;
+		rType = 0;
+		vrLen = 580;
+		vrLoc = 0;
+	};
+	878A1ED213DCFBA70059A548 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* ClamshellWake.cpp */;
+		name = "ClamshellWake.cpp: 2";
+		rLen = 0;
+		rLoc = 50;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 0;
+	};
+	878A1EE213DD00890059A548 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* ClamshellWake.cpp */;
+		name = "ClamshellWake.cpp: 2";
+		rLen = 0;
+		rLoc = 50;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 0;
+	};
+}
