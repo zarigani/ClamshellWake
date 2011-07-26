@@ -1,7 +1,7 @@
 =ClamshellWake
 
 ==これは何？
-+ClamshellWake.kext+（クラムシェル ウェイク）は、MacBookのディスプレイを閉じた状態でも {Wake on Demand}[http://support.apple.com/kb/HT3774?viewlocale=ja_JP] が有効になるカーネル機能拡張です。
+<tt>ClamshellWake.kext</tt>（クラムシェル ウェイク）は、MacBookのディスプレイを閉じた状態でも {Wake on Demand}[http://support.apple.com/kb/HT3774?viewlocale=ja_JP] が有効になるカーネル機能拡張です。
 
 * ディスプレイを閉じた瞬間のスリープが無効になります。
 * ディスプレイを閉じている間は、省エネルギー環境設定にしたがってスリープします。
@@ -13,22 +13,22 @@
 
 ==使い方
 ===簡単な方法
-* 付属のClamshellWake.appを起動することでClamshellWake.kextが有効になります。
-* 付属のClamshellWake.appを終了することでClamshellWake.kextも無効になります。
+* 付属のClamshellWake.appを起動することで、<tt>ClamshellWake.kext</tt>が有効になります。
+* 付属のClamshellWake.appを終了することで、<tt>ClamshellWake.kext</tt>も無効になります。
 
 ===ターミナルからコマンドで操作する方法
-* カーネルにロード用のClamshellWake.kextを/tmpにコピーします。（カーネルは権限に厳格で、オーナー=root グループ=wheelしか受け付けません。）
-<tt>sudo cp -R ClamshellWake.kext /tmp</tt>
-<tt>sudo chown -R root:wheel /tmp/ClamshellWake.kext</tt>
+* カーネルにロード用の<tt>ClamshellWake.kext</tt>を/tmpにコピーします。（カーネルは権限に厳格で、オーナー=root グループ=wheelしか受け付けません。）
+  * <tt>sudo cp -R ClamshellWake.kext /tmp</tt>
+  * <tt>sudo chown -R root:wheel /tmp/ClamshellWake.kext</tt>
 
 * ClamshellWake.kextを有効にします。
-  * sudo kextload -v /tmp/ClamshellWake.kext
+  * <tt>sudo kextload -v /tmp/ClamshellWake.kext</tt>
 
 * ClamshellWake.kextを無効にします。
-  * sudo kextunload -v /tmp/ClamshellWake.kext
+  * <tt>sudo kextunload -v /tmp/ClamshellWake.kext</tt>
 
 * アップル以外のカーネル機能拡張のロード状態を確認します。
-  * kextstat | grep -v com.apple
+  * <tt>kextstat | grep -v com.apple</tt>
 
 ==注意
 * ディスプレイを閉じた状態では冷却効率が悪くなり、高負荷が連続すると本体が高温になる可能性があります。
@@ -44,7 +44,7 @@
 ==心構え
 ClamshellWakeはフリーウェアです。
 作者自身のMacBook環境での動作確認はしておりますが、どうか以下の点にご注意ください。
-本ソフトウェアは無保証であり、使用により発生したいかなる損害についても、作者は責任を負うことができません。
+  本ソフトウェアは無保証であり、使用により発生したいかなる損害についても、作者は責任を負うことができません。
 
 
 以上、よろしくお願いします。
