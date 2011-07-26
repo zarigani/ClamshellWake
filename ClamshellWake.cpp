@@ -8,6 +8,7 @@ OSDefineMetaClassAndStructors(com_bebekoubou_driver_ClamshellWake, IOService)
 
 // Define the driver's superclass.
 #define super IOService
+
 bool com_bebekoubou_driver_ClamshellWake::start(IOService *provider)
 {
     IOLog("ClamshellWake: Starting\n");
@@ -50,7 +51,7 @@ IOReturn com_bebekoubou_driver_ClamshellWake::message(UInt32 type, IOService * p
 bool com_bebekoubou_driver_ClamshellWake::send_event(UInt32 msg)
 {
     IOPMrootDomain *root = NULL;
-	IOReturn		ret=kIOReturnSuccess;
+	IOReturn		ret = kIOReturnSuccess;
 	
     // warning is no problem.(format '%X' expects type 'unsigned int', but argument 2 has type 'UInt32')
     IOLog("ClamshellWake:   Sending event 0x%X\n", msg);
@@ -62,13 +63,10 @@ bool com_bebekoubou_driver_ClamshellWake::send_event(UInt32 msg)
     }
 	
 	ret = root->receivePowerNotification(msg);
-	
-	IOLog("ClamshellWake:   root returns %d\n", ret);
-	
-	if(ret!=kIOReturnSuccess)
-		IOLog("ClamshellWake:   Error sending event\n");
-	else
-		IOLog("ClamshellWake:   Message sent to root\n");
+	if(ret!=kIOReturnSuccess) {
+        IOLog("ClamshellWake:   Error sending event, root returns %d\n", ret);
+        return false;
+    }
 	
 	return true;
 }
