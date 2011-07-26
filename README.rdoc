@@ -17,18 +17,22 @@
 * 付属のClamshellWake.appを終了することで、<tt>ClamshellWake.kext</tt>も無効になります。
 
 ===ターミナルからコマンドで操作する方法
-* カーネルにロード用の<tt>ClamshellWake.kext</tt>を/tmpにコピーします。（カーネルは権限に厳格で、オーナー=root グループ=wheelしか受け付けません。）
-  * <tt>sudo cp -R ClamshellWake.kext /tmp</tt>
-  * <tt>sudo chown -R root:wheel /tmp/ClamshellWake.kext</tt>
+* カーネルにロード用の<tt>ClamshellWake.kext</tt>を/tmpにコピーします。
+  * カーネルは権限に厳格で、オーナー=root グループ=wheelしか受け付けません。
+  sudo cp -R ClamshellWake.kext /tmp
+  sudo chown -R root:wheel /tmp/ClamshellWake.kext
+
 
 * ClamshellWake.kextを有効にします。
-  * <tt>sudo kextload -v /tmp/ClamshellWake.kext</tt>
+  sudo kextload -v /tmp/ClamshellWake.kext
+
 
 * ClamshellWake.kextを無効にします。
-  * <tt>sudo kextunload -v /tmp/ClamshellWake.kext</tt>
+  sudo kextunload -v /tmp/ClamshellWake.kext
+
 
 * アップル以外のカーネル機能拡張のロード状態を確認します。
-  * <tt>kextstat | grep -v com.apple</tt>
+  kextstat | grep -v com.apple
 
 ==注意
 * ディスプレイを閉じた状態では冷却効率が悪くなり、高負荷が連続すると本体が高温になる可能性があります。
@@ -48,6 +52,7 @@ ClamshellWakeはフリーウェアです。
 
 
 以上、よろしくお願いします。
+
 
 作者:: bebe工房
 メール:: bebekoubou@gmail.com
