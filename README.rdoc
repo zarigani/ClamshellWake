@@ -17,21 +17,21 @@
 * 付属のClamshellWake.appを終了することで、<tt>ClamshellWake.kext</tt>も無効になります。
 
 ===ターミナルからコマンドで操作する方法
-* カーネルにロード用の<tt>ClamshellWake.kext</tt>を/tmpにコピーします。
-  * カーネルは権限に厳格で、オーナー=root グループ=wheelしか受け付けません。
+* カーネルにロード用の<tt>ClamshellWake.kext</tt>を/tmpにコピーします。（カーネルは権限に厳格で、オーナー=root グループ=wheelしか受け付けません）
+
   sudo cp -R ClamshellWake.kext /tmp
   sudo chown -R root:wheel /tmp/ClamshellWake.kext
 
-
 * ClamshellWake.kextを有効にします。
+
   sudo kextload -v /tmp/ClamshellWake.kext
 
-
 * ClamshellWake.kextを無効にします。
+
   sudo kextunload -v /tmp/ClamshellWake.kext
 
-
 * アップル以外のカーネル機能拡張のロード状態を確認します。
+
   kextstat | grep -v com.apple
 
 ==注意
